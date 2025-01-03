@@ -84,5 +84,32 @@ source ~/.bashrc
 
 
 ### Build project
+#### 1. Clone this repository
+```
+https://github.com/TomoyaKamimura/nav2_gazebo.git
+```
+#### 2. Build project
+```
+cd nav2_gazebo
+colcon build
+```
 ## Usage
+### 1. launch Gazebo simulator
+First, launch terminal and use following command.
+```
+ros2 launch nav2_bringup tb3_simulation_launch.py headless:=False
+```
+Then, you can see tb3 on Gazebo simulator.
+
+
+### 2. launch nav2_gazebo program
+Launch another terminal and use following commands.
+```
+cd nav2_gazebo
+source install/setup.bash
+```
+Then, launch program.
+```
+ros2 run nav2_gazebo navigation
+```
 ## Reference
