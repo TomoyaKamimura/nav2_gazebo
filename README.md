@@ -1,4 +1,4 @@
-# ROS2 Sample program for trutlebot3(Gazebo simulator)  
+# ROS2 Sample program for trutlebot3 (Gazebo simulator)  
 ## Overview
 This sample program keeps tb3 moving on Gazebo.
 
@@ -99,17 +99,23 @@ First, launch terminal and use following command.
 ```
 ros2 launch nav2_bringup tb3_simulation_launch.py headless:=False
 ```
-Then, you can see tb3 on Gazebo simulator.
+Then, you are able to see tb3 on Gazebo simulator
 
 
 ### 2. launch nav2_gazebo program
-Launch another terminal and use following commands.
+Launch another terminal and use following commands
 ```
 cd nav2_gazebo
 source install/setup.bash
 ```
-Then, launch program.
+Then, launch program
 ```
 ros2 run nav2_gazebo navigation
 ```
 ## Reference
+ROS2 Setup
+https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html
+
+Nav2
+https://docs.nav2.org/getting_started/index.html
+https://docs.nav2.org/commander_api/index.html
