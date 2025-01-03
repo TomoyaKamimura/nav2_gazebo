@@ -2,7 +2,7 @@
 ## Overview
 This sample program keeps tb3 moving on Gazebo.
 
-[Demo (gif)](https://github.com/TomoyaKamimura/nav2_gazebo/blob/main/nav2_gazebo_sample.gif)
+![Demo (gif)](https://github.com/TomoyaKamimura/nav2_gazebo/blob/main/nav2_gazebo_sample.gif)
 
 ## Tested environment
 - OS : Ubuntu 22.04 (Virtualbox)
